@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.search" parent="AppTheme">
+
+        <!-- Text Color -->
+    <item name="android:editTextColor">@color/colorWhite</item>
+    <item name="android:textColorHint">@color/colorGray</item>
+
+    </style>
+
+    <!--  For the sake of xml preview not breaking  -->
+    <style name="UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+    </style>
+
+</resources>

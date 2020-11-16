@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MoradiNotesPRO</string>
+    <string name="notes">My Notes</string>
+    <string name="notes_title">Notes Title</string>
+    <string name="notes_sub_title">Notes Sub Title</string>
+    <string name="notes_desc">Enter Note Here...</string>
+    <string name="search">search your notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="moradi_notepad">Moradi Notepad</string>
+    <string name="brett_tech_networking">Brett Tech Networking</string>
+
+</resources>
