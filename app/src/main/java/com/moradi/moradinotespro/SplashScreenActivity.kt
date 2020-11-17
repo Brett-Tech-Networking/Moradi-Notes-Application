@@ -18,6 +18,6 @@ class SplashScreenActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        },  2000)  // delaying for 2 sec till open
+        },  1000)  // delaying for 2 sec till open
         }
     }

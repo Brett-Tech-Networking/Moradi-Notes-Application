@@ -68,8 +68,6 @@ class CreateNoteFragment : BaseFragment() {
             Toast.makeText(context, "Note Required", Toast.LENGTH_SHORT).show()
         }
 
-
-
         launch {
         val notes = Notes()
             notes.title = etNoteTitle.text.toString()

@@ -14,7 +14,7 @@
         android:fontFamily="@font/ubuntu_bold"
         android:paddingStart="@dimen/_10sdp"
         android:paddingTop="@dimen/_10sdp"
-        android:text="@string/app_name"
+        android:text="@string/moradi_notes"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +87,5 @@
         android:tint="@color/colorWhite"
         app:layout_constraintBottom_toTopOf="@id/l1"
         app:layout_constraintEnd_toEndOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

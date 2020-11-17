@@ -1,11 +1,18 @@
 package com.moradi.moradinotespro
 
+import android.content.Context
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_home.*
+import androidx.appcompat.app.AppCompatActivity
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.moradi.moradinotespro.adapter.NotesAdapter
+import com.moradi.moradinotespro.database.NotesDatabase
+import kotlinx.coroutines.launch
 
 class HomeFragment : BaseFragment() {
 
@@ -35,10 +42,26 @@ class HomeFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        recycler_view.setHasFixedSize(true)
+
+        recycler_view.layoutManager = StaggeredGridLayoutManager( 2,StaggeredGridLayoutManager.VERTICAL)
+
+        launch {
+        context?.let {
+        var notes = NotesDatabase.getDatabase(it).noteDao().getAllNotes()
+        recycler_view.adapter = NotesAdapter(notes)
+        }
+        }
+
         fabBtnCreateNote.setOnClickListener {
-            replaceFragment(CreateNoteFragment.newInstance(), true)
+            replaceFragment(CreateNoteFragment.newInstance(), false)
+
+            //save note
         }
     }
+
+
 
     fun replaceFragment(fragment: Fragment, istransition: Boolean) {
         activity?.let { activity ->

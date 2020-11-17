@@ -1,5 +1,8 @@
 package com.moradi.moradinotespro
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -18,6 +21,9 @@ abstract class BaseFragment : Fragment(),CoroutineScope{
         job = Job()
 
     }
+
+
+
 
     override fun onDestroy() {
         super.onDestroy()
