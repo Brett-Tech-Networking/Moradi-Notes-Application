@@ -1,5 +1,32 @@
 <resources>
-    <string name="app_name">MoradiNotesPRO</string>
+    <string name="app_name">Moradi-Notes-Premium</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MoradiNotes - Brett Tech Networking</string>
+    <string name="nav_header_subtitle">support@Brett-TechRepair.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="brett_tech_networking">Brett Tech Networking</string>
+    <string name="support_brett_techrepair_com">support@Brett-TechRepair.com</string>
+    <string name="locked_notes">Locked Notes</string>
+    <string name="trash">Trash</string>
+    <string name="sort">Sort</string>
+    <string name="moradi_notes_bretttech_networking">Moradi Notes - BrettTech Networking</string>
+    <string name="sub_items">Sub items</string>
+    <string name="my_account">My account</string>
+    <string name="about">About</string>
+    <string name="title_activity_create_note">create_note</string>
+    <string name="title_activity_create__note">Create_Note</string>
+    <string name="title">Title</string>
+    <string name="subtitle">SubTitle</string>
+    <string name="start_note">Start Note...</string>
+    <string name="moradinotes">MoradiNotes</string>
+    <string name="menu_items">Menu Items</string>
+
     <string name="notes">My Notes</string>
     <string name="notes_title">Notes Title</string>
     <string name="notes_sub_title">Notes Sub Title</string>
@@ -9,9 +36,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="todo">TODO</string>
     <string name="moradi_notepad">Moradi Notepad</string>
-    <string name="brett_tech_networking">Brett Tech Networking</string>
     <string name="delete_selected">Delete Selected</string>
     <string name="favorite_selected">Favorite Selected</string>
     <string name="moradi_notes">Moradi Notes</string>
+    <string name="features">Features</string>
+    <string name="templates">Templates</string>
+    <string name="personalization">Personalization</string>
 
 </resources>

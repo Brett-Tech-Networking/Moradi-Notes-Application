@@ -10,8 +10,8 @@
     <style name="ThemeOverlay.search" parent="AppTheme">
 
         <!-- Text Color -->
-    <item name="android:editTextColor">@color/colorWhite</item>
-    <item name="android:textColorHint">@color/colorGray</item>
+        <item name="android:editTextColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorGray</item>
 
     </style>
 

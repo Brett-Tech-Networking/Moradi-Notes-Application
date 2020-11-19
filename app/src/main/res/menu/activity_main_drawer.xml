@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/LockedNotes"
+            android:icon="@drawable/ic_locked"
+            android:title="@string/locked_notes" /> <!-- menu gallery -->
+        <item
+            android:id="@+id/Trash"
+            android:icon="@drawable/ic_trash"
+            android:title="@string/trash" /> <!-- menu slideshow -->
+    </group>
+    <!--PreLoaded templetes etc...-->
+    <item android:title="@string/features">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/template"
+                    android:title="@string/templates" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/personalization">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_account"
+                    android:title="@string/my_account" />
+
+                <item
+                    android:icon="@drawable/ic_about"
+                    android:title="@string/about" />
+
+                <item android:id="@+id/Settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings"/>
+            </group>
+        </menu>
+    </item>
+</menu>
